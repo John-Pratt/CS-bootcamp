@@ -1,0 +1,8 @@
+ body {
+    background:radial-gradient(ellipse at 50% 50%, rgba(255, 178, 0, 1) 9%, rgba(0, 189, 212, 1) 47%, rgba(238, 130, 130, 1) 100%);
+
+ }
+
+ .submit {
+    background-color:rgb(236, 240, 0);
+ }
