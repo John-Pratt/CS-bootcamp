@@ -1,8 +1,35 @@
- body {
+ /* body {
     background:radial-gradient(ellipse at 50% 50%, rgba(255, 178, 0, 1) 9%, rgba(0, 189, 212, 1) 47%, rgba(238, 130, 130, 1) 100%);
+    color:rgb(65, 65, 65);
+ } */
 
- }
+    body {
+        background-image: url("adrien-olichon-RCAhiGJsUUE-unsplash.jpg");
+        background-size: cover;
+        color:rgb(255, 145, 0);
+        font-family: 'Ubuntu', sans-serif;
+    }
 
  .submit {
-    background-color:rgb(236, 240, 0);
+    font-weight: bold;
+    font-size: 1.8em;
+    background-color:rgb(2, 0, 146);
+    color: rgba(255, 153, 0, 0.808);
+    border: 2px solid rgb(255, 153, 0);
+    padding: 0.5em 1em;
+    transition: border-radius 0.2s, background-color 0.2s, border-color 0.2s;
  }
+
+ .names {
+    text-decoration: rgb(255, 0, 0) underline 4px;
+ }
+ 
+.submit:hover {
+    border-color: #e5ff00;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.5em #e5ff00;
+    transform: translateY(-0.25em);
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    cursor: pointer;
+}
+
